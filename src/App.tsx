@@ -23,14 +23,14 @@ const MENU: MenuLinks[] = [
   {
     id: crypto.randomUUID(),
     icon: <Icon.Github />,
-    href: "#Github",
+    href: "https://www.github.com/raniererocha",
     label: "Github",
     description: "Explore meus projetos e contribuições no GitHub"
   },
   {
     id: crypto.randomUUID(),
     icon: <Icon.Mail />,
-    href: "#Email",
+    href: "mailto:raniererocha1996+lead@gmail.com?subject=#VimPeloLink&body=Olá, Gostei do teu perfil e gostaria de entrar em contato",
     label: "Email",
     description: "Entre em contato comigo",
   },
