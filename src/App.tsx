@@ -16,7 +16,7 @@ const MENU: MenuLinks[] = [
   {
     id: crypto.randomUUID(),
     icon: <Icon.Linkedin />,
-    href: "#LikedIn",
+    href: "https://www.linkedin.com/in/raniererocha",
     label: "LinkedIn",
     description: "Veja minha trajetória profissional no LinkedIn"
   },
