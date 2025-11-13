@@ -6,14 +6,16 @@ export interface LinkProps {
   label: string;
   description?: string;
   hasHighlight?: boolean;
-  icon?: ReactElement
+  icon?: ReactElement;
+  download?: string
 }
 export function LinkItem({
   href,
   description,
   label,
   hasHighlight = false,
-  icon = undefined
+  icon = undefined,
+  download = undefined
 }: LinkProps) {
   const style =
     "btn cursor-pointer only:rounded-md first:rounded-b-none last:rounded-t-none  [&:not(:first-child):not(:last-child):not(:only-child)]:rounded-none";
@@ -21,7 +23,8 @@ export function LinkItem({
   return (
     <a
       href={href}
-      target="__BLANK"
+      download={download}
+      target={download ? undefined : "__BLANK"}
       rel="noopener noreferrer"
       className={cn(
         style,

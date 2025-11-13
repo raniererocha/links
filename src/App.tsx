@@ -9,7 +9,7 @@ const MENU: MenuLinks[] = [
   {
     id: crypto.randomUUID(),
     icon: <Icon.Pdf />,
-    href: "#Pdf",
+    href: "https://raniererocha.github.io/links/raniere-curriculo.pdf",
     label: "Currículo",
     description: "Baixe meu currículo completo em PDF."
   },
