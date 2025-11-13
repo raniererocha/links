@@ -1,7 +1,7 @@
 export function Header() {
   return (
     <section className="flex-1 flex flex-col justify-center items-center gap-2 md:gap-4">
-      <img src="/img.jpeg" className=" size-40 md:size-48 rounded-4xl" />
+      <img src="img.jpeg" className=" size-40 md:size-48 rounded-4xl" />
       <div className="text-center">
         <h1 className="font-black text-2xl md:text-3xl">RRocha Dev</h1>
         <p className="text-sm text-purple-300 italic leading-4 px-6">
