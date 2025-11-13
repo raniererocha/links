@@ -9,7 +9,7 @@ body {
 
 @layer components {
   .btn {
-    @apply bg-purple-800 font-semibold text-primary-foreground hover:bg-purple-700/90 h-11 rounded-md px-4 flex justify-center items-center
+    @apply bg-purple-800 font-semibold text-primary-foreground hover:bg-purple-700/90 min-h-11 max-h-14 py-1 rounded-md px-4 flex justify-center items-center
   }
 }
 

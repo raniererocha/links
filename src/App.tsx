@@ -45,7 +45,7 @@ function App() {
           <Link.Item key={item.id} {...item} />
         ))}
       </Link.List>
-      <footer className="h-[10%] text-center text-xs text-muted-foreground font-semibold">
+      <footer className="h-[10%] flex justify-center items-center text-center text-xs text-muted-foreground font-semibold">
         Desenvolvido com 💙 por {"<RRochaDev />"}
       </footer>
     </main>
