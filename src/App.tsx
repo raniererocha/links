@@ -30,7 +30,7 @@ const MENU: MenuLinks[] = [
   {
     id: crypto.randomUUID(),
     icon: <Icon.Mail />,
-    href: "mailto:raniererocha1996+lead@gmail.com?subject=#VimPeloLink&body=Olá, Gostei do teu perfil e gostaria de entrar em contato",
+    href: "mailto:raniererocha1996+link-lead@gmail.com",
     label: "Email",
     description: "Entre em contato comigo",
   },
