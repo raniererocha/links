@@ -1,3 +1,4 @@
+import { FolderIcon } from "./folder";
 import { GithubIcon } from "./github";
 import { LinkedinIcon } from "./linkedin";
 import { MailIcon } from "./mail";
@@ -9,5 +10,6 @@ export const Icon = Object.assign({
     Linkedin: LinkedinIcon,
     Pdf: PdfIcon,
     Github: GithubIcon,
-    Mail: MailIcon
+    Mail: MailIcon,
+    Folder: FolderIcon
 }, [])
