@@ -25,7 +25,14 @@ const MENU: MenuLinks[] = [
     icon: <Icon.Github />,
     href: "https://www.github.com/raniererocha",
     label: "Github",
-    description: "Explore meus projetos e contribuições no GitHub"
+    description: "Explore minhas contribuições no GitHub"
+  },
+    {
+    id: crypto.randomUUID(),
+    icon: <Icon.Folder />,
+    href: "https://raniererocha.github.io/projects",
+    label: "Portfólio",
+    description: "Conheça alguns projetos que já estão no ar"
   },
   {
     id: crypto.randomUUID(),
@@ -34,6 +41,7 @@ const MENU: MenuLinks[] = [
     label: "Email",
     description: "Entre em contato comigo",
   },
+
 ];
 
 function App() {
